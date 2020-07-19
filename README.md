@@ -85,13 +85,13 @@
 + 이 사용자 입력정보창 설정하는 방법
   - 톰캣 중지 : shutdown.bat
   - cd conf로 이동 / tomcat-users.xml을 연다. (VSCODE나 메모장)
-  - <role rolename = "manager" />
-  - <role rolename = "manager-gui" />
-  - <role rolename = "manager-script" />
-  - <role rolename = "manager-jmx" />
-  - <role rolename = "manager-status" />
-  - <role rolename = "admin" />
-  - <user username="admin" password="tomcat" roles="manager, manager-gui, ....(중략)..... " />
+  - ```<role rolename = "manager" />```
+  - ```<role rolename = "manager-gui" />```
+  - ```<role rolename = "manager-script" />```
+  - ```<role rolename = "manager-jmx" />```
+  - ```<role rolename = "manager-status" />```
+  - ```<role rolename = "admin" />```
+  - ```<user username="admin" password="tomcat" roles="manager, manager-gui, ....(중략)..... " />```
   - 톰캣 재기동
   - /manager 다시 접속 -> 계정입력
   
