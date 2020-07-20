@@ -95,8 +95,42 @@
   - 톰캣 재기동
   - /manager 다시 접속 -> 계정입력
   
+### [인프런 - IntelliJ를 시작하시는 분들 위한 IntelliJ 가이드](https://www.inflearn.com/course/intellij-guide/dashboard)
 
+#### Toolbox 소개
 
++ community verison : 웹과 관련되것 사용하지 못한다.(JSP, JS, 스프링 사용 불가)
+
++ 툴박스에서 heapsizee 조절 가능
+
++ update to 
+  - Release     : 릴리즈버전 업데이트
+  - Release EAP : 프리뷰버전까지 업데이트
+  
+#### 프로젝트 생성
++ create project -> Java프로젝트보다는 gradle이나 maven 선택 !
+  - 이유 : gradle이나 maven의 빌드환경을 추천하는 이유는 자바 어플리케이션을 개발한다 해도 Junit라이브러리나 Apache Commerce같은 
+  유틸성 라이브러리를 사용할 경우가 많아 편리하게 이용할 수 있다.
++ groupId : 프로젝트 그룹 ex) 스프링 프로젝트
++ ArtifactId : IntelliJ-guide로 작성
+
+#### Gradle Projects need to be imported
++ Import changes : Build.gradle이 변경될 때 개발자들이 수동으로 Build.gradle을 새로 고침해서 반영
++ Enable Auto-Import : Build.gradle을 변경사항이 생기면 자동으로 반영
+
+#### OS별 단축키 플러그인 설치
+
++ action검색이용 (ctrl+shift+A) -> plugins -> presentation Assistant 설치
+
+#### 메인메소드 생성하고 실행하기
+
++ 단축키 : mac) command + N
+        win/linux) alt + insert
+      - directory 선택 : src/main/java 
++ main메소드 자동완성 : psvm + enter (public static void main)
+
++ system.out.println 자동완성 : sout + enter
++ 실행 : 좌측 실행버튼 (▶) 또는 ctrl + shift + F10 (mac은 ctrl + shift + R)
 
 
 
