@@ -150,7 +150,27 @@
   - 메소드를 벗어 나지 못하게 하는 경우 : mac : command + shift + ↕, windows/linux : ctrl + shift + ↕
   
 + Element 단위로 옮기기 : html, xml같은 것들의 id값이나, name
-  - mac : command + option + shift + ↔, windows/linux : ctrl + shift + alt + ↔ 
+  - mac : command + option + shift + <->, windows/linux : ctrl + shift + alt + <->
 
+#### 코드 즉시보기
+
++ 인자값 즉시 보기(생성자, 메소드 등 전부 미리보기) :  mac : command + P, windows/linux : ctrl + P
+
++ 코드 구현부 즉시 보기(메소드나, 인스턴스나, 클래스) : mac : option + space, windows/linux : shift + ctrl + I
+  - 얼티메잇버전은 html, JS, css도 즉시 볼 수 있따.
+
++ Doc 즉시보기 : mac : F1, windows/linux : ctrl + Q
+
+#### 포커스 에디터
+
++ 단어별 이동 : mac : option + <->, windows/linux : ctrl + <->
+
++ 단어별 선택 : mac : option + shift + <-> , windows/linux : ctrl + shift + <->
+
++ 라인 첫/끝 이동 : mac : fn + <-> , windows/linux : home, end
+
++ 라인 전체 선택 : mac : fn + shift + <-> , windows/linux : shift + home/end
+
++ page up/down : mac : fn + ↕, windows,linux : page up + page down
 
         
