@@ -132,9 +132,25 @@
 + system.out.println 자동완성 : sout + enter
 + 실행 : 좌측 실행버튼 (▶) 또는 ctrl + shift + F10 (mac은 ctrl + shift + R)
 
++ 이전 프로젝트 실행하기 mac : ctrl + R, windows/linux : shift + F10 ( 둘다 기준은 우측 상단 셀렉트박스 - Edit configuration 쪽)
 
+#### 라인 수정하기
 
+맥 : command <-> win : ctrl 와 거의 대응된다.
 
+맥 : option <-> wind : alt 와 거의 대응된다.
+
++ 라인 복사하기 : mac : command + D, windows/linux : ctrl + D
+      
++ 라인 삭제하기 : mac : command + delete, windows/linux ctrl + Y
+
++ 문자열 라인 합치기 : mac/windows/linux : ctrl + shift + J (상단으로 이동, 라인단위로 이동)
+
++ 라인 단위로 옮기기 : mac : option + shift + ↕, windows/linux : alt + shift + ↕
+  - 메소드를 벗어 나지 못하게 하는 경우 : mac : command + shift + ↕, windows/linux : ctrl + shift + ↕
+  
++ Element 단위로 옮기기 : html, xml같은 것들의 id값이나, name
+  - mac : command + option + shift + ↔, windows/linux : ctrl + shift + alt + ↔ 
 
 
         
