@@ -136,9 +136,9 @@
 
 #### 라인 수정하기
 
-맥 : command <-> win : ctrl 와 거의 대응된다.
++ 맥 : command <-> win : ctrl 와 거의 대응된다.
 
-맥 : option <-> wind : alt 와 거의 대응된다.
++ 맥 : option <-> wind : alt 와 거의 대응된다.
 
 + 라인 복사하기 : mac : command + D, windows/linux : ctrl + D
       
