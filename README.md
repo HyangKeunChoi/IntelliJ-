@@ -183,4 +183,14 @@
 
 + 오류 라인으로 자동 포커스 : f2
 
+#### 검색 텍스트
 
++ 현재 파일에서 검색 : mac : command + F / windows/linux : ctrl + F
+
++ 현재 파일에서 교체 (replace) : mac : command + R / windows/linux : ctrl + R
+
++ 전체에서 검색(전체 프로젝트) : mac : command + shift + F / windows/linux : ctrl + shift + F
+
++ 전체에서 교체(프로젝트 전체에서 replace) : mac : command + shift + R / windows/linux : ctrl + shift + R
+
++ 정규표현식으로 검색, 교체 : mac : shift + F -> regex / windows/linux : ctrl + shift + F -> regex
