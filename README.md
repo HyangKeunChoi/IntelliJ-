@@ -171,6 +171,16 @@
 
 + 라인 전체 선택 : mac : fn + shift + <-> , windows/linux : shift + home/end
 
-+ page up/down : mac : fn + ↕, windows,linux : page up + page down
++ page up/down : mac : fn + ↕, windows/linux : page up + page down
 
-        
+#### 포커스 특수키
+
++ 포커스 범위 한 단계씩 늘리기 : mac : option + ↕, windows/linux : ctrl + W / ctrl + shift + W
+
++ 포커스 뒤로 / 앞으로 가기 : mac + [ / ], windows/linux : ctrl + alt +  <->
+
++ 멀티포커스 : 여러코드를 한번에 수정 : mac : option 2번 + ↕, windows/linux : ctrl +2번 + ↕  (option, ctrl 누르고 있어야함)
+
++ 오류 라인으로 자동 포커스 : f2
+
+
