@@ -124,15 +124,18 @@
 
 #### 메인메소드 생성하고 실행하기
 
-+ 단축키 : mac) command + N
-        win/linux) alt + insert
-      - directory 선택 : src/main/java 
++ 단축키 
+  - mac : command + N
+  - windows/linux : alt + insert
+  - directory 선택 : src/main/java 
 + main메소드 자동완성 : psvm + enter (public static void main)
 
 + system.out.println 자동완성 : sout + enter
 + 실행 : 좌측 실행버튼 (▶) 또는 ctrl + shift + F10 (mac은 ctrl + shift + R)
 
-+ 이전 프로젝트 실행하기 mac : ctrl + R, windows/linux : shift + F10 ( 둘다 기준은 우측 상단 셀렉트박스 - Edit configuration 쪽)
++ 이전 프로젝트 실행하기 
+  - mac : ctrl + R
+  - windows/linux : shift + F10 ( 둘다 기준은 우측 상단 셀렉트박스 - Edit configuration 쪽)
 
 #### 라인 수정하기
 
@@ -140,46 +143,77 @@
 
 + 맥 : option <-> wind : alt 와 거의 대응된다.
 
-+ 라인 복사하기 : mac : command + D, windows/linux : ctrl + D
++ 라인 복사하기 
+  - mac : command + D
+  - windows/linux : ctrl + D
       
-+ 라인 삭제하기 : mac : command + delete, windows/linux ctrl + Y
++ 라인 삭제하기 
+  - mac : command + delete
+  - windows/linux : ctrl + Y
 
-+ 문자열 라인 합치기 : mac/windows/linux : ctrl + shift + J (상단으로 이동, 라인단위로 이동)
++ 문자열 라인 합치기 
+  - mac/windows/linux : ctrl + shift + J (상단으로 이동, 라인단위로 이동)
 
 + 라인 단위로 옮기기 : mac : option + shift + ↕, windows/linux : alt + shift + ↕
-  - 메소드를 벗어 나지 못하게 하는 경우 : mac : command + shift + ↕, windows/linux : ctrl + shift + ↕
+  
+  - 메소드를 벗어 나지 못하게 하는 경우 
+  - mac : command + shift + ↕
+  - windows/linux : ctrl + shift + ↕
   
 + Element 단위로 옮기기 : html, xml같은 것들의 id값이나, name
-  - mac : command + option + shift + <->, windows/linux : ctrl + shift + alt + <->
+  - mac : command + option + shift + <->
+  - windows/linux : ctrl + shift + alt + <->
 
 #### 코드 즉시보기
 
-+ 인자값 즉시 보기(생성자, 메소드 등 전부 미리보기) :  mac : command + P, windows/linux : ctrl + P
++ 인자값 즉시 보기(생성자, 메소드 등 전부 미리보기) 
+  - mac : command + P
+  - windows/linux : ctrl + P
 
-+ 코드 구현부 즉시 보기(메소드나, 인스턴스나, 클래스) : mac : option + space, windows/linux : shift + ctrl + I
++ 코드 구현부 즉시 보기(메소드나, 인스턴스나, 클래스) 
+  - mac : option + space
+  - windows/linux : shift + ctrl + I
   - 얼티메잇버전은 html, JS, css도 즉시 볼 수 있따.
 
-+ Doc 즉시보기 : mac : F1, windows/linux : ctrl + Q
++ Doc 즉시보기 
+  - mac : F1
+  - windows/linux : ctrl + Q
 
 #### 포커스 에디터
 
-+ 단어별 이동 : mac : option + <->, windows/linux : ctrl + <->
++ 단어별 이동 
+  - mac : option + <->
+  - windows/linux : ctrl + <->
 
-+ 단어별 선택 : mac : option + shift + <-> , windows/linux : ctrl + shift + <->
++ 단어별 선택 
+  - mac : option + shift + <-> 
+  - windows/linux : ctrl + shift + <->
 
-+ 라인 첫/끝 이동 : mac : fn + <-> , windows/linux : home, end
++ 라인 첫/끝 이동 
+  - mac : fn + <-> 
+  - windows/linux : home, end
 
-+ 라인 전체 선택 : mac : fn + shift + <-> , windows/linux : shift + home/end
++ 라인 전체 선택 
+  - mac : fn + shift + <-> 
+  - windows/linux : shift + home/end
 
-+ page up/down : mac : fn + ↕, windows/linux : page up + page down
++ page up/down 
+  - mac : fn + ↕
+  - windows/linux : page up + page down
 
 #### 포커스 특수키
 
-+ 포커스 범위 한 단계씩 늘리기 : mac : option + ↕, windows/linux : ctrl + W / ctrl + shift + W
++ 포커스 범위 한 단계씩 늘리기 
+  - mac : option + ↕
+  - windows/linux : ctrl + W / ctrl + shift + W
 
-+ 포커스 뒤로 / 앞으로 가기 : mac + [ / ], windows/linux : ctrl + alt +  <->
++ 포커스 뒤로 / 앞으로 가기 
+  - mac + [ / ]
+  - windows/linux : ctrl + alt +  <->
 
-+ 멀티포커스 : 여러코드를 한번에 수정 : mac : option 2번 + ↕, windows/linux : ctrl +2번 + ↕  (option, ctrl 누르고 있어야함)
++ 멀티포커스 : 여러코드를 한번에 수정 
+  - mac : option 2번 + ↕
+  - windows/linux : ctrl +2번 + ↕  (option, ctrl 누르고 있어야함)
 
 + 오류 라인으로 자동 포커스 : f2
 
@@ -187,10 +221,40 @@
 
 + 현재 파일에서 검색 : mac : command + F / windows/linux : ctrl + F
 
-+ 현재 파일에서 교체 (replace) : mac : command + R / windows/linux : ctrl + R
++ 현재 파일에서 교체 (replace) : 
+  - mac : command + R 
+  - windows/linux : ctrl + R
 
-+ 전체에서 검색(전체 프로젝트) : mac : command + shift + F / windows/linux : ctrl + shift + F
++ 전체에서 검색(전체 프로젝트) : 
+  - mac : command + shift + F 
+  - windows/linux : ctrl + shift + F
 
-+ 전체에서 교체(프로젝트 전체에서 replace) : mac : command + shift + R / windows/linux : ctrl + shift + R
++ 전체에서 교체(프로젝트 전체에서 replace) 
+  - mac : command + shift + R 
+  - windows/linux : ctrl + shift + R
 
-+ 정규표현식으로 검색, 교체 : mac : shift + F -> regex / windows/linux : ctrl + shift + F -> regex
++ 정규표현식으로 검색, 교체 
+  - mac : shift + F -> regex 
+  - windows/linux : ctrl + shift + F -> regex
+
+#### 검색 - 기타
+
++ 파일 검색 (패키지 까지 검색,  패키지/클래스 순서대로 입력하면 클래스도 검색가능) 
+  - mac : command + shift + O
+  - windows/linux : ctrl + shift + n
+
++ 메소드 검색 : 
+  - mac : command + option + O 
+  - windows/linux : ctrl + shift + alt + n
+
++ ***Action 검색***
+  - mac : command + shift + a
+  - windows/linux : ctrl + shift + a
+
++ 최근 열었던 파일 목록 보기
+  - mac : command + E
+  - windows/linux : ctrl + E
+
++ 최근 수정한 파일목록 보기
+  - mac : command + shift + E
+  - windows/linux : ctrl + shift + E
