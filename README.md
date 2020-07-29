@@ -258,3 +258,22 @@
 + 최근 수정한 파일목록 보기
   - mac : command + shift + E
   - windows/linux : ctrl + shift + E
+
+#### 자동완성
+
++ 스마트 자동완성 (전부 다 보여줌)
+  - mac/windows/linux : ctrl + shift +space 
+
++ 일반 자동완성
+  - mac/windows/linux : ctrl + space
+
++ 스태틱 메소드 자동완성 : assertThat 같은거 자동완성 할때
+  - mac/windows/linux : ctrl + space + space
+
++ getter/setter/생성자 자동완성
+  - mac : command + n
+  - windows/linux : alt + insert
+
++ Override 메소드 자동완성
+  - mac/windows/linux : ctrl + i
+
