@@ -277,3 +277,13 @@
 + Override 메소드 자동완성
   - mac/windows/linux : ctrl + i
 
+#### Live Template 소개
+
++ live template 목록보기
+  - mac : command + J
+  - windows/linux : ctrl + J
+  - action검색 -> Live template 입력
+  
++ 나만의 live template 추가
+  - other -> "+" -> live template
+  - 축약어 ( 설명 ) 입력 -> 템플릿 입력 -> define 클릭 -> 어디에 쓸건지 선택( ex  자바에서 사용)
