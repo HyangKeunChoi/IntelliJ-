@@ -287,3 +287,21 @@
 + 나만의 live template 추가
   - other -> "+" -> live template
   - 축약어 ( 설명 ) 입력 -> 템플릿 입력 -> define 클릭 -> 어디에 쓸건지 선택( ex  자바에서 사용)
+
+#### 리팩토링 - Extract(추출하기)
+
++ 변수 추출하기 (Extract Variable)
+  - mac : command + option + V (Variable)
+  - windows/linux : ctrl + option + V (Variable)
+  
++ 파라미터 추출하기
+  - mac : command + option + P (Parameter)        -> Replace All or Delegate Overloading
+  - windows/linux : ctrl + option + P (Parameter) -> Replace All or Delegate Overloading
+
++ 메소드 추출하기
+  - mac : command + option + M (Method)
+  - windows/linux : ctrl + alt + M (Method)
+
++ 이너클래스 추출하기
+  - mac/windows/linux : f6 (클래스에 포커스)
+ 
