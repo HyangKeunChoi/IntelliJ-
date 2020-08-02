@@ -305,3 +305,21 @@
 + 이너클래스 추출하기
   - mac/windows/linux : f6 (클래스에 포커스)
  
+#### 리팩토링 기타
+
++ 이름 일괄 변경하기( 변수, 클래스... 등등 전부 변경 가능)
+  - mac/windows/linux : shift + F6
+
++ 타입 일관 변경하기
+  - mac : command + shift + F6 (Type Migration 창)
+  - windows/linux : ctrl + shift + F6
+
++ Import 정리하기( 사용하지 않는 Import지우기)
+  - mac : ctrl + option + O
+  - windows/linux : ctrl + alt + O
+  - 자동 설정 : action 검색 -> optimize imports on -> Auto import -> OFF를 ON으로
+
++ 코드 자동 정렬하기
+  - mac : command + option + l
+  - windows/linux : ctrl + alt + l
+  
