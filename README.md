@@ -323,3 +323,54 @@
   - mac : command + option + l
   - windows/linux : ctrl + alt + l
   
+#### 디버깅
+
++ 라인넘버 보이기 -> 라인 우클릭 -> show line number
+
++ Debug 모드 즉시 실행하기
+  - mac : ctrl + shift + D
+  - windows/linux : 없음
+
++ Debug 모드로 즉시 실행 (이전 것을 실행)
+  - mac : ctrl + D
+  = window/linux : shift + F9
+
++ Conditional Break Point
+  - 브레이크 포인트 + 우클릭 -> 조건 입력 -> "문자열".equals( 값 ) 형식으로 적으면됨
+
+![디버그 이미지](https://user-images.githubusercontent.com/49984996/89191467-f00b9100-d5dd-11ea-981b-48f659704d0b.jpg)
+
++ Resume ( 다음 브레이크포인트로 넘어가기)
+  = mac : option + command + R
+  - windows/linux : F9
+  - call stack : 메서드 목록
+  - variables : 변수 값 목록
+
++ Step Over(다음 라인으로 이동)
+  - mac/windows/linux : F8
+
++ Step Into(메소드로 들어가기)
+  - mac/window/linux : F7
+
++ Step Out(메소드 나오기 )
+  - mac/linux/windows : shift + F8
+
++ Evaluate Expression ( 현재 Breaking Point 상태에서 즉시 코드 실행하기)
+  
+  - mac : option + F8
+  - windows/linux : Alt + F8
+  - 데이터가 잘 들어갔는지 확인(하이버네이트같은거 쓸때)
+  - 현재 브레이크 걸린 상태에서 코드를 실행하는 기능
+  - 항상 켤때마다 초기화 됨(단발성)
+
++ Watch(안경 모양)
+  
+  - 단축키 없음
+  - 값이 어떻게 변하는지 실시간으로 확인
+  - Input창에 입력
+  - 브레이크 포인트 시점부터 다음 브레이크까지의 변화를 볼때 사용
+  
+
+
+
+
