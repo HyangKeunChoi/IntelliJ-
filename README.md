@@ -371,6 +371,37 @@
   - 브레이크 포인트 시점부터 다음 브레이크까지의 변화를 볼때 사용
   
 
+#### Git 기본 기능 사용하기
 
++ 버전 컨트롤 View 보기 (Git View On)
+  - view Tab -> Tool Windows -> Version Control
+   - mac : command + 9
+   - windows/linux : Alt + 9
+   
+   - local change 탭 : 최종 변경사항 확인(show diff)
+   - log 탭 : 커밋 로그
+   
++ Git Option Popup(모든 기능 표시)
+  - mac : ctrl + v
+  - windows/linux : Alt + '(Back Quote)
+
++ Git history
+  - mac : ctrl + v + 4
+  - windows/linux : ctrl + '(Back Quote) + 4
+
++ Git Branch
+  - mac : ctrl + v + 7
+  - windows/linux : alt + '(Back Quote) + 7
+
++ Commit
+  - mac : command + k
+  - windows/linux : ctrl + k
+  
++ Push
+  - mac : command + shift + k
+  - windows/linux : ctrl + shift + k
+
++ Pull
+  - mac/windows/linux : action 검색 -> git pull 검색
 
 
