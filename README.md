@@ -404,4 +404,10 @@
 + Pull
   - mac/windows/linux : action 검색 -> git pull 검색
 
+#### 깃헙 연동하기
 
++ 기존 프로젝트를 Github에 연동하기
+  - 액션검색 -> share github 검색 -> password입력 -> save credentials(선택하면 다음에 인증안해도됨) -> new repository / remote name / description 입력
+
++ 깃헙 프로젝트 clone 받기
+  - 프로젝트 메인화면 -> checkout from Version Control 선택 -> git 선택 -> url 입력 or login(깃헙) -> 프로젝트 선택 + clone -> checkout -> 빌드툴 선택 -> use gradle wrapper task configuration 선택 (프로젝트에 맞는 그래들 설정)
