@@ -42,9 +42,9 @@
 + Tomcat과 Windows간의 환경 차이로 글자 깨지는 현상
   - Edit Configuration -> VM options : -Duser.language=en -Duser.region=us 입력
 
-#### JSP파일 생선
+#### JSP파일 생성
 
-+ JSP파일은 변경해도 바로 반여안될수도 있따. (War파일 형태로 결오 지정되어있으면)
++ JSP파일은 변경해도 바로 반영안될수도 있다. (War파일 형태로 결오 지정되어있으면)
 
 + 해결 : output directory를 war파일이 아닌 src > main > webapp으로 변경한다.
 
