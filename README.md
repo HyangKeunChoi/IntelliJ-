@@ -5,7 +5,7 @@
 + File -> Setting : intelliJ의 전반적인 환경설정
 + File -> Project Structure : 프로젝트 별로 독립적인 환경설정
 
-#### 첫번쨰 웹 프로젝트 생성
+#### 첫번째 웹 프로젝트 생성
 
 + New Project -> Maven -> Project SDK -> create from archetype 체크 -> 마지막에 maven-archetype-webapp선택
 
@@ -44,7 +44,7 @@
 
 #### JSP파일 생성
 
-+ JSP파일은 변경해도 바로 반영안될수도 있다. (War파일 형태로 결오 지정되어있으면)
++ JSP파일은 변경해도 바로 반영안될수도 있다. (War파일 형태로 경로 지정되어있으면)
 
 + 해결 : output directory를 war파일이 아닌 src > main > webapp으로 변경한다.
 
@@ -101,7 +101,7 @@
 
 + community verison : 웹과 관련되것 사용하지 못한다.(JSP, JS, 스프링 사용 불가)
 
-+ 툴박스에서 heapsizee 조절 가능
++ 툴박스에서 heapsize 조절 가능
 
 + update to 
   - Release     : 릴리즈버전 업데이트
@@ -173,7 +173,7 @@
 + 코드 구현부 즉시 보기(메소드나, 인스턴스나, 클래스) 
   - mac : option + space
   - windows/linux : shift + ctrl + I
-  - 얼티메잇버전은 html, JS, css도 즉시 볼 수 있따.
+  - 얼티메잇버전은 html, JS, css도 즉시 볼 수 있다.
 
 + Doc 즉시보기 
   - mac : F1
@@ -243,7 +243,7 @@
   - mac : command + shift + O
   - windows/linux : ctrl + shift + n
 
-+ 메소드 검색 : 
++ 메소드 검색 
   - mac : command + option + O 
   - windows/linux : ctrl + shift + alt + n
 
@@ -407,7 +407,7 @@
 #### 깃헙 연동하기
 
 + 기존 프로젝트를 Github에 연동하기
-  - 액션검색 -> share github 검색 -> password입력 -> save credentials(선택하면 다음에 인증안해도됨) -> new repository / remote name / description 입력
+  - 액션검색 -> share github 검색 -> password입력 -> save credentials(선택하면 다음에 인증 안해도됨) -> new repository / remote name / description 입력
 
 + 깃헙 프로젝트 clone 받기
   - 프로젝트 메인화면 -> checkout from Version Control 선택 -> git 선택 -> url 입력 or login(깃헙) -> 프로젝트 선택 + clone -> checkout -> 빌드툴 선택 -> use gradle wrapper task configuration 선택 (프로젝트에 맞는 그래들 설정)
@@ -418,7 +418,7 @@
   
   + 추천 플러그인
     - Presentation assistant : 다른 OS에서 해당 단축키가 어떤 것인지 알려준다.
-    - Bash support : Bash 파일에대한 기능 제공
+    - Bash support : Bash 파일에 대한 기능 제공
   
   + Material Theme UI : 테마 변경
   
