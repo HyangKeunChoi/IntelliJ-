@@ -411,3 +411,15 @@
 
 + 깃헙 프로젝트 clone 받기
   - 프로젝트 메인화면 -> checkout from Version Control 선택 -> git 선택 -> url 입력 or login(깃헙) -> 프로젝트 선택 + clone -> checkout -> 빌드툴 선택 -> use gradle wrapper task configuration 선택 (프로젝트에 맞는 그래들 설정)
+  
+#### 플러그인
+  + 플러그인 설치 
+    - 액션 검색 -> plugins -> preferences의 plugins선택 -> browse repositories 선택 -> sort by download순으로 정렬
+  
+  + 추천 플러그인
+    - Presentation assistant : 다른 OS에서 해당 단축키가 어떤 것인지 알려준다.
+    - Bash support : Bash 파일에대한 기능 제공
+  
+  + Material Theme UI : 테마 변경
+  
+  + jojoldu Translation : 영문 코드 -> 한글, 한글-> 영문으로 변역해주는 툴
