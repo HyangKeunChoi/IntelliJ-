@@ -208,7 +208,7 @@
   - windows/linux : ctrl + W / ctrl + shift + W
 
 + 포커스 뒤로 / 앞으로 가기 
-  - mac + [ / ]
+  - mac : command [ / ]
   - windows/linux : ctrl + alt +  <->
 
 + 멀티포커스 : 여러코드를 한번에 수정 
@@ -296,7 +296,7 @@
   
 + 파라미터 추출하기
   - mac : command + option + P (Parameter)        -> Replace All or Delegate Overloading
-  - windows/linux : ctrl + option + P (Parameter) -> Replace All or Delegate Overloading
+  - windows/linux : ctrl + alt + P (Parameter) -> Replace All or Delegate Overloading
 
 + 메소드 추출하기
   - mac : command + option + M (Method)
