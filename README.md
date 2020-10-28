@@ -208,7 +208,7 @@
   - windows/linux : ctrl + W / ctrl + shift + W
 
 + 포커스 뒤로 / 앞으로 가기 
-  - mac : command [ / ]
+  - mac : command + [ / ]
   - windows/linux : ctrl + alt +  <->
 
 + 멀티포커스 : 여러코드를 한번에 수정 
